@@ -1,0 +1,37 @@
+{
+    "greeting": [
+        "Hello! Welcome to Pizza Paradise! How can I help you today?",
+        "Hi there! Ready to order some delicious pizza?",
+        "Hey! What can I do for you today?"
+    ],
+    "order_pizza": [
+        "Great! I'd love to help you order. Please call us at (555) 123-4567 or visit our website at www.pizzaparadise.com to place your order.",
+        "Awesome! To place an order, you can call us at (555) 123-4567 or order online at www.pizzaparadise.com. We offer delivery and pickup!",
+        "Perfect! Visit www.pizzaparadise.com to see our full menu and place your order, or call (555) 123-4567 to speak with our team."
+    ],
+    "order_status": [
+        "To check your order status, please call us at (555) 123-4567 with your order number, and we'll be happy to help!",
+        "I understand you're eager for your pizza! Please contact us at (555) 123-4567 with your order details, and we'll track it for you.",
+        "For order tracking, please reach out to us at (555) 123-4567. Our team will give you the latest update on your delivery!"
+    ],
+    "menu_inquiry": [
+        "We offer a variety of pizzas including Margherita, Pepperoni, Supreme, Hawaiian, Veggie Delight, and BBQ Chicken. Sizes available: Small ($10), Medium ($15), Large ($20). Visit www.pizzaparadise.com for the full menu!",
+        "Our menu includes classic favorites and specialty pizzas! Check out www.pizzaparadise.com for prices, toppings, and current deals.",
+        "We have something for everyone! From classic pepperoni to loaded supreme pizzas. Visit www.pizzaparadise.com to explore our full menu and daily specials."
+    ],
+    "complaint": [
+        "I'm very sorry to hear that! Your satisfaction is our priority. Please call our manager at (555) 123-4567, and we'll make it right immediately.",
+        "I apologize for the inconvenience. This isn't the experience we want for our customers. Please contact us at (555) 123-4567 so we can resolve this for you.",
+        "I'm truly sorry about this issue. Please reach out to our team at (555) 123-4567 right away, and we'll ensure this is taken care of properly."
+    ],
+    "hours_location": [
+        "We're open Monday-Thursday 11 AM - 10 PM, Friday-Saturday 11 AM - 11 PM, and Sunday 12 PM - 9 PM. We're located at 123 Pizza Street, Food City. See you soon!",
+        "Our location is 123 Pizza Street, Food City. We're open 7 days a week! Mon-Thu: 11 AM - 10 PM, Fri-Sat: 11 AM - 11 PM, Sun: 12 PM - 9 PM.",
+        "Come visit us at 123 Pizza Street, Food City! Hours: Mon-Thu 11 AM - 10 PM, Fri-Sat 11 AM - 11 PM, Sun 12 PM - 9 PM."
+    ],
+    "goodbye": [
+        "Goodbye! Thanks for contacting Pizza Paradise. Enjoy your day!",
+        "See you later! We hope to serve you soon at Pizza Paradise!",
+        "Take care! Don't hesitate to reach out if you need anything else!"
+    ]
+}
