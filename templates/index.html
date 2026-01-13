@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Critic AI | LSTM Chatbot</title>
+    <meta name="description" content="An AI-powered chatbot that generates movie reviews using LSTM neural networks">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <!-- Background Gradient -->
+    <div class="gradient-bg"></div>
+    
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon">🎬</div>
+                <h1 class="logo-text">Movie Critic AI</h1>
+            </div>
+            <p class="subtitle">Neural Network-Powered Review Generator</p>
+        </header>
+
+        <!-- Status Bar -->
+        <div class="status-bar" id="statusBar">
+            <div class="status-indicator" id="statusIndicator">
+                <span class="status-dot"></span>
+                <span class="status-text">Checking model status...</span>
+            </div>
+        </div>
+
+        <!-- Main Chat Area -->
+        <main class="chat-container">
+            <div class="chat-card">
+                <!-- Welcome Message -->
+                <div class="welcome-section" id="welcomeSection">
+                    <div class="welcome-icon">🎭</div>
+                    <h2 class="welcome-title">Welcome to Movie Critic AI</h2>
+                    <p class="welcome-text">
+                        Start typing a phrase like <strong>"The acting was"</strong> or 
+                        <strong>"This movie is"</strong>, and watch as the AI completes 
+                        your review in the style of a movie critic.
+                    </p>
+                    <div class="feature-pills">
+                        <span class="pill">✨ LSTM Neural Network</span>
+                        <span class="pill">🎯 IMDb Trained</span>
+                        <span class="pill">⚡ Real-time Generation</span>
+                    </div>
+                </div>
+
+                <!-- Chat Messages -->
+                <div class="messages" id="messagesContainer">
+                    <!-- Messages will be inserted here dynamically -->
+                </div>
+
+                <!-- Input Area -->
+                <div class="input-section">
+                    <div class="input-wrapper">
+                        <textarea 
+                            id="seedInput" 
+                            class="seed-input" 
+                            placeholder="Start your review... (e.g., 'The acting was')"
+                            rows="1"
+                            maxlength="200"
+                        ></textarea>
+                        <button id="generateBtn" class="generate-btn" title="Generate Review">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <!-- Advanced Settings -->
+                    <div class="settings-toggle" id="settingsToggle">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 1V3M12 21V23M4.22 4.22L5.64 5.64M18.36 18.36L19.78 19.78M1 12H3M21 12H23M4.22 19.78L5.64 18.36M18.36 5.64L19.78 4.22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <span>Settings</span>
+                    </div>
+                    
+                    <div class="settings-panel" id="settingsPanel">
+                        <div class="setting-group">
+                            <label for="wordsSlider" class="setting-label">
+                                Words to Generate: <span id="wordsValue">30</span>
+                            </label>
+                            <input 
+                                type="range" 
+                                id="wordsSlider" 
+                                class="slider" 
+                                min="10" 
+                                max="100" 
+                                value="30"
+                            >
+                        </div>
+                        
+                        <div class="setting-group">
+                            <label for="tempSlider" class="setting-label">
+                                Creativity (Temperature): <span id="tempValue">1.0</span>
+                            </label>
+                            <input 
+                                type="range" 
+                                id="tempSlider" 
+                                class="slider" 
+                                min="0.5" 
+                                max="2.0" 
+                                step="0.1" 
+                                value="1.0"
+                            >
+                            <div class="slider-hints">
+                                <span>Conservative</span>
+                                <span>Creative</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Powered by TensorFlow & Keras LSTM Neural Networks</p>
+            <p class="footer-note">Trained on IMDb Movie Reviews Dataset</p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
