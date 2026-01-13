@@ -1,0 +1,149 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey there",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "What's up",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Greetings",
+                "Hi there",
+                "Hello there",
+                "Yo"
+            ]
+        },
+        {
+            "tag": "order_pizza",
+            "patterns": [
+                "I want to order a pizza",
+                "Can I place an order?",
+                "I'd like to order",
+                "Order a large pepperoni",
+                "Can I get a pizza delivered?",
+                "I want a medium cheese pizza",
+                "Place an order for me",
+                "I need to order food",
+                "Can I order a pizza?",
+                "I'm hungry, can I order?",
+                "I want to buy a pizza",
+                "Order pizza for delivery",
+                "I'd like a large supreme pizza",
+                "Can you deliver a pizza?",
+                "I want to make an order",
+                "Get me a pizza please",
+                "I need a pizza",
+                "Order now"
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where is my order?",
+                "When will my pizza arrive?",
+                "Check my order status",
+                "Is my order ready?",
+                "How long until my pizza gets here?",
+                "Track my order",
+                "Where's my delivery?",
+                "What's the status of my order?",
+                "Has my order been delivered?",
+                "When will I get my pizza?",
+                "My order is late",
+                "How much longer for my pizza?",
+                "Is my pizza on the way?",
+                "Check order",
+                "Order tracking"
+            ]
+        },
+        {
+            "tag": "menu_inquiry",
+            "patterns": [
+                "What's on the menu?",
+                "Show me the menu",
+                "What pizzas do you have?",
+                "What are your prices?",
+                "Do you have vegetarian options?",
+                "What toppings are available?",
+                "Menu please",
+                "What sizes do you offer?",
+                "Do you have gluten-free pizza?",
+                "What specials do you have?",
+                "What can I order?",
+                "Tell me about your pizzas",
+                "What flavors do you have?",
+                "Do you have deals?",
+                "Show me your options",
+                "What's available?",
+                "Price list"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "My pizza was cold",
+                "This is not what I ordered",
+                "I'm not satisfied",
+                "The pizza is burnt",
+                "Wrong order delivered",
+                "I want a refund",
+                "This tastes terrible",
+                "The delivery was late",
+                "My pizza is missing toppings",
+                "I have a complaint",
+                "Poor service",
+                "Quality is bad",
+                "I'm disappointed",
+                "This is unacceptable",
+                "Not happy with my order"
+            ]
+        },
+        {
+            "tag": "hours_location",
+            "patterns": [
+                "What are your hours?",
+                "When do you open?",
+                "When do you close?",
+                "Are you open now?",
+                "Where are you located?",
+                "What's your address?",
+                "How late are you open?",
+                "Business hours?",
+                "Store location",
+                "Where can I find you?",
+                "What time do you open?",
+                "Opening hours",
+                "Are you open on weekends?",
+                "Where is your shop?",
+                "How do I get there?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "See you",
+                "Talk to you later",
+                "Catch you later",
+                "Thanks, bye",
+                "Farewell",
+                "Have a good day",
+                "Take care",
+                "Until next time",
+                "Gotta go",
+                "I'm done",
+                "That's all",
+                "Thank you, goodbye"
+            ]
+        }
+    ]
+}
