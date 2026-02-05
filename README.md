@@ -1,4 +1,4 @@
-# Pizza BOT
+# Pizzaria-ot
 
 A powerful, AI-driven Intent Classification system featuring a neural network backend and a modern Flask web interface. This project uses Natural Language Processing (NLP) to categorize user text inputs into predefined intents and responds accordingly.
 
